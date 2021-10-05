@@ -1,0 +1,35 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "dev": "concurrently \"parcel ./public/index.html\" \"rescript build -w\" "
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.8",
+    "@davesnx/styled-ppx": "^0.25.0",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@metamask/jazzicon": "^2.0.0",
+    "@rescript/react": "^0.10.3",
+    "@usedapp/core": "^0.5.1",
+    "bs-css": "^15.0.1",
+    "bs-css-emotion": "^4.0.1",
+    "framer-motion": "^4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "*",
+    "rescript-chakra": "^1.2.0-next.7"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
